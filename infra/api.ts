@@ -7,6 +7,10 @@ export const api = new sst.aws.ApiGatewayV2("Api", {
       handler: {
         link: [table],
       },
+      // We want to use AWS_IAM across all our routes.
+      args: {
+        auth: { iam: true },
+      },
     },
   },
 });
