@@ -1,9 +1,9 @@
 {
-  "name": "@monorepo-template/functions",
+  "name": "@sst-notetaking-app/functions",
   "version": "0.0.0",
   "type": "module",
   "dependencies": {
-    "@monorepo-template/core": "*",
+    "@sst-notetaking-app/core": "*",
     "sst": "*"
   },
   "devDependencies": {
