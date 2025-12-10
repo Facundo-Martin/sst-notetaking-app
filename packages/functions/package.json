@@ -3,10 +3,14 @@
   "version": "0.0.0",
   "type": "module",
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.948.0",
+    "@aws-sdk/lib-dynamodb": "^3.948.0",
     "@sst-notetaking-app/core": "*",
-    "sst": "*"
+    "sst": "*",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8"
+    "@types/aws-lambda": "^8.10.159",
+    "@types/uuid": "^11.0.0"
   }
 }
